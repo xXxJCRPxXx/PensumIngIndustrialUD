@@ -1,0 +1,42 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  padding: 20px;
+  background-color: #f2f2f2;
+  color: #222;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.semestre {
+  margin-bottom: 30px;
+}
+
+.materia {
+  padding: 12px 15px;
+  margin: 8px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.bloqueada {
+  background-color: #99ccee;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.desbloqueada {
+  background-color: #004a7c;
+}
+
+.aprobada {
+  background-color: #28a745 !important;
+  text-decoration: line-through;
+  font-style: italic;
+  font-weight: bold;
+}
